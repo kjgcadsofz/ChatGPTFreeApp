@@ -99,7 +99,7 @@ const ApiMenu = ({
           {t('apiKey.option', { ns: 'api' })}
         </label>
 
-        {_apiFree === false && (
+        {_apiFree === true && (
           <div className='flex gap-2 items-center justify-center mt-2'>
             <div className='min-w-fit text-gray-900 dark:text-gray-300 text-sm'>
               {t('apiKey.inputLabel', { ns: 'api' })}
