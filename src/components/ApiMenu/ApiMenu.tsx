@@ -92,14 +92,14 @@ const ApiMenu = ({
         <label className='flex items-center gap-2 text-sm font-medium text-gray-900 dark:text-gray-300'>
           <input
             type='radio'
-            checked={_apiFree === true}
+            checked={_apiFree === false}
             className='w-4 h-4'
-            onChange={() => _setApiFree(true)}
+            onChange={() => _setApiFree(false)}
           />
           {t('apiKey.option', { ns: 'api' })}
         </label>
 
-        {_apiFree === true && (
+        {_apiFree === false && (
           <div className='flex gap-2 items-center justify-center mt-2'>
             <div className='min-w-fit text-gray-900 dark:text-gray-300 text-sm'>
               {t('apiKey.inputLabel', { ns: 'api' })}
