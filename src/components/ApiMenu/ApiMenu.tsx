@@ -92,7 +92,7 @@ const ApiMenu = ({
         <label className='flex items-center gap-2 text-sm font-medium text-gray-900 dark:text-gray-300'>
           <input
             type='radio'
-            checked={_apiFree === false}
+            checked={_apiFree === true}
             className='w-4 h-4'
             onChange={() => _setApiFree(false)}
           />
