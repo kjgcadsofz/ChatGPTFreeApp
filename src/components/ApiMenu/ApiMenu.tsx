@@ -94,7 +94,7 @@ const ApiMenu = ({
             type='radio'
             checked={_apiFree === true}
             className='w-4 h-4'
-            onChange={() => _setApiFree(false)}
+            onChange={() => _setApiFree(true)}
           />
           {t('apiKey.option', { ns: 'api' })}
         </label>
