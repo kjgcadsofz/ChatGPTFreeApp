@@ -109,13 +109,13 @@ const AboutMenu = () => {
               </>
 
               <h2 className='text-lg font-bold'>
-                {t('discordServer.title', { ns: 'about' })}
+                {t('API端 请选https://chatgpt-api.shn.hk/v1/', { ns: 'about' })}
               </h2>
-              <p>{t('discordServer.paragraph1', { ns: 'about' })}</p>
+              <p>{t('要不会需要科学上网', { ns: 'about' })}</p>
 
               <p>
                 <Trans
-                  i18nKey='discordServer.paragraph2'
+                  i18nKey='更多有趣，好玩的方法等着你开发，也可以加入我们的群探讨'
                   ns='about'
                   components={[
                     <a
