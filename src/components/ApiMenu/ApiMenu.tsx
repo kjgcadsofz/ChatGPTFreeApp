@@ -79,7 +79,7 @@ const ApiMenu = ({
           )}
         </div>
 
-        <label className='flex items-center mb-2 gap-2 text-sm font-medium text-gray-900 dark:text-gray-300'>
+        {/* <label className='flex items-center mb-2 gap-2 text-sm font-medium text-gray-900 dark:text-gray-300'>
           <input
             type='radio'
             checked={_apiFree === true}
@@ -87,7 +87,7 @@ const ApiMenu = ({
             onChange={() => _setApiFree(true)}
           />
           {t('apiEndpoint.option', { ns: 'api' })}
-        </label>
+        </label> */}
 
         <label className='flex items-center gap-2 text-sm font-medium text-gray-900 dark:text-gray-300'>
           <input
