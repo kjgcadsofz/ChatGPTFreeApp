@@ -28,7 +28,7 @@ const AboutMenu = () => {
         >
           <div className='p-6 border-b border-gray-200 dark:border-gray-600'>
             <div className='min-w-fit text-gray-900 dark:text-gray-300 text-sm flex flex-col gap-3 leading-relaxed'>
-              <p>{t('Free ChatGPT 是一个神奇的开源 Web 应用', { ns: 'about' })}</p>
+              <p>{t('Free ChatGPT 是一个神奇的开源 Web 应用的', { ns: 'about' })}</p>
               <p>
                 <Trans
                   i18nKey='填上你的key就可以和chatgpt对话'
