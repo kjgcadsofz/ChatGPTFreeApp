@@ -28,10 +28,10 @@ const AboutMenu = () => {
         >
           <div className='p-6 border-b border-gray-200 dark:border-gray-600'>
             <div className='min-w-fit text-gray-900 dark:text-gray-300 text-sm flex flex-col gap-3 leading-relaxed'>
-              <p>{t('description', { ns: 'about' })}</p>
+              <p>{t('Free ChatGPT 是一个神奇的开源 Web 应用', { ns: 'about' })}</p>
               <p>
                 <Trans
-                  i18nKey='sourceCode'
+                  i18nKey='填上你的key就可以和chatgpt对话'
                   ns='about'
                   components={[
                     <a
@@ -45,7 +45,7 @@ const AboutMenu = () => {
 
               <p>
                 <Trans
-                  i18nKey='initiative.description'
+                  i18nKey='如果你有key,直接填上去就可以使用'
                   ns='about'
                   components={[
                     <a
@@ -59,12 +59,12 @@ const AboutMenu = () => {
 
               <>
                 <h2 className='text-lg font-bold'>
-                  {t('support.title', { ns: 'about' })}
+                  <a href='https://xiaoyao.expnt.biz//details/F1FD2FC1' target="_blank">{t('如果你没有，登录 https://xiaoyao.expnt.biz//details/F1FD2FC1 快速获取', { ns: 'about' })}</a>
                 </h2>
-                <p>{t('support.paragraph1', { ns: 'about' })}</p>
+                <p>{t('现在openai的费用降低90%，用api是很划算的，又快又好，', { ns: 'about' })}</p>
                 <p>
                   <Trans
-                    i18nKey='support.paragraph2'
+                    i18nKey='还可以随时修改聊天内容，让chatgpt跟着你的思路走'
                     ns='about'
                     components={[
                       <a
@@ -75,10 +75,10 @@ const AboutMenu = () => {
                     ]}
                   />
                 </p>
-                <p>{t('support.paragraph3', { ns: 'about' })}</p>
+                <p>{t('如果您喜欢使用我们的应用程序,记得收藏，以防迷路', { ns: 'about' })}</p>
 
                 <div className='flex flex-col items-center gap-4 my-4'>
-                  <a href='https://ko-fi.com/freechatgpt' target='_blank'>
+                  <a href='https://xiaoyao.expnt.biz//details/F1FD2FC1' target='_blank'>
                     <img
                       src='/kofi.svg'
                       alt='Support us through the Ko-fi platform.'
@@ -86,26 +86,26 @@ const AboutMenu = () => {
                   </a>
                   <div className='flex gap-x-10 gap-y-4 flex-wrap justify-center'>
                     <div className='flex flex-col items-center justify-center gap-1'>
-                      <div>{t('support.alipay', { ns: 'about' })} (Ayaka)</div>
+                      <div>{t('', { ns: 'about' })} </div>
                       <img
                         className='rounded-md w-32 h-32'
-                        src='https://ayaka14732.github.io/sponsor/alipay.jpg'
-                        alt='Support us through Alipay'
+                        src=''
+                        alt=''
                       />
                     </div>
                     <div className='flex flex-col items-center justify-center gap-1'>
                       <div>
-                        {t('support.wechatPay', { ns: 'about' })} (Ayaka)
+                        {t('', { ns: 'about' })} 
                       </div>
                       <img
                         className='rounded-md w-32 h-32'
-                        src='https://ayaka14732.github.io/sponsor/wechat.png'
-                        alt='Support us through WeChat Pay'
+                        src=''
+                        alt=''
                       />
                     </div>
                   </div>
                 </div>
-                <p>{t('support.paragraph4', { ns: 'about' })}</p>
+                <p>{t('第一次使用，请在api那里设置个人的key', { ns: 'about' })}</p>
               </>
 
               <h2 className='text-lg font-bold'>
